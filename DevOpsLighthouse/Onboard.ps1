@@ -1,0 +1,2 @@
+Connect-AzAccount
+New-AzDeployment -Name "OnboardSentinel"  -Location WestEurope  -TemplateFile "C:\tempp\rgDelegatedResourceManagement.json" -TemplateParameterFile "C:\temp\rgDelegatedResourceManagement.parameters.json"

@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "The Collective Lighthouse "
+        },
+        "rgName": {
+            "value": "rg-sentinel"
+        },
+        "mspOfferDescription": {
+            "value": "This sample provided Contributor access to a group and SPN"
+        },
+        "managedByTenantId": {
+            "value": "2cf6ec6e-2282-4005-9973-344bcba75c54"
+        },
+        "authorizations": {
+            "value": [
+                { 
+                    "principalId": "a80ae328-799d-4fe9-8f20-f5481a232573", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Contributor Group" 
+                },
+		{ 
+                    "principalId": "80af51f4-607c-4c16-b7ef-cef41cdffa7e", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "SPN" 
+                },
+                { 
+                    "principalId": "a80ae328-799d-4fe9-8f20-f5481a232573", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "Managed Offer - Remove" 
+                }
+           ]
+        }
+    }
+}
