@@ -17,17 +17,17 @@
         "authorizations": {
             "value": [
                 { 
-                    "principalId": "a80ae328-799d-4fe9-8f20-f5481a232573", 
+                    "principalId": "b5e115ea-21a2-4d95-a058-e1b16ec14ae4", 
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
                     "principalIdDisplayName": "Contributor Group" 
                 },
 		{ 
-                    "principalId": "80af51f4-607c-4c16-b7ef-cef41cdffa7e", 
+                    "principalId": "81f35717f-506f-f5daf-fdsa5-dgf5p144315d", 
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
                     "principalIdDisplayName": "SPN" 
                 },
                 { 
-                    "principalId": "a80ae328-799d-4fe9-8f20-f5481a232573", 
+                    "principalId": "b5e115ea-21a2-4d95-a058-e1b16ec14ae4", 
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
                     "principalIdDisplayName": "Managed Offer - Remove" 
                 }
