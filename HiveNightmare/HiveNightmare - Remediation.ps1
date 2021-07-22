@@ -9,7 +9,7 @@ vssadmin delete shadows /quiet /all
 
 #check permissions
 $checkPermissions = icacls C:\windows\system32\config\sam
-if ($checkPermissions -like "*$($LocalBuiltInUsersGroupName):(I)(RX*)*") {
+if ($checkPermissions -like "*\$($LocalBuiltInUsersGroupName):(I)(RX*)*") {
     $permissionsSucces = $false
     write-host "ACL change failed. Check permissions running script, e.g. run as SYSTEM."
 }
